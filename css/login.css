@@ -1,0 +1,170 @@
+/* Container 26 */
+.container {
+    position: absolute;
+    top: 100px;
+    left: 747px;
+    width: 500px;
+    height: 340px;
+    background: #FFFFFFFF;
+    border-radius: 8px;
+    box-shadow: 0px 2px 5px #171a1f, 0px 0px 2px #171a1f;
+}
+
+/* Textbox 5 */
+.textbox5 {
+    position: absolute;
+    top: 170px;
+    left: 34px;
+    opacity: 1;
+}
+.textbox input {
+    width: 452px;
+    height: 44px;
+    padding-left: 44px;
+    padding-right: 16px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    background: #F3F4F6FF;
+    border-radius: 8px;
+    border-width: 0px;
+    outline: none;
+}
+.textbox svg {
+    position: absolute;
+}
+
+.textbox svg.left {
+    left: 20px;
+    top: 35px;
+    right: 16px;
+    width: 20px;
+    height: 20px;
+    fill: #9095A0FF;
+}
+/* hover */
+.textbox input:hover {
+    color: #BCC1CAFF;
+    background: #F3F4F6FF;
+}
+/* focused */
+.textbox input:focused {
+    color: #BCC1CAFF;
+    background: #FFFFFFFF;
+}
+/* disabled */
+.textbox input:disabled {
+    color: #BCC1CAFF;
+    background: #F3F4F6FF;
+}
+.textbox :disabled + .icon, .textbox :disabled + .icon + .icon {
+    fill: #171A1FFF;
+}
+
+/* Textbox 4 */
+.textbox4 {
+    position: absolute;
+    top: 338px;
+    left: 34px;
+    opacity: 1;
+}
+.textbox input {
+    width: 465px;
+    height: 44px;
+    padding-left: 44px;
+    padding-right: 44px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    background: #F3F4F6FF;
+    border-radius: 8px;
+    border-width: 0px;
+    outline: none;
+}
+
+.textbox svg.left2 {
+    left: 20px;
+    top: 104px;
+    right: 16px;
+    width: 20px;
+    height: 20px;
+    fill: #9095A0FF;
+}
+/* hover */
+.textbox input:hover {
+    color: #BCC1CAFF;
+    background: #F3F4F6FF;
+}
+/* focused */
+.textbox input:focused {
+    color: #BCC1CAFF;
+    background: #FFFFFFFF;
+}
+/* disabled */
+.textbox input:disabled {
+    color: #BCC1CAFF;
+    background: #F3F4F6FF;
+}
+.textbox :disabled + .icon, .textbox :disabled + .icon + .icon {
+    fill: #171A1FFF;
+}
+
+/* Button 15 */
+.button {
+    position: absolute;
+    top: 244px;
+    left: 34px;
+    width: 452px;
+    height: 44px;
+    padding: 0 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #FFFFFFFF;
+    background: #666666FF;
+    opacity: 1;
+    border: none;
+    border-radius: 8px;
+}
+/* Hover */
+.button:hover {
+color: #FFFFFFFF;
+background: #454545FF;
+}
+/* Pressed */
+.button:hover:active {
+color: #FFFFFFFF;
+background: #2D2D2DFF;
+}
+/* Disabled */
+.button:disabled {
+opacity: 0.4;
+}
+
+.text {
+    position: absolute;
+    top: 28px;
+    left: 31px;
+    font-family: Amaranth;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+    color: #171A1FFF;
+}
+
+.text2 {
+    position: absolute;
+    top: 28px;
+    left: 860px;
+    font-family: Amaranth;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+    color: #171A1FFF;
+}

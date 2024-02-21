@@ -1,0 +1,42 @@
+.container-h1 {
+    text-align: center; 
+  }
+  
+body{
+  background-color: #D4C2AD;
+}
+
+.h1{
+  font-family: Archivo;
+  font-style: italic;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 550;
+  color:darkslategrey;
+  
+}
+
+.text {
+  font-family: Archivo;
+  font-style: italic;
+  font-size: 18px;
+  font-weight: 700;
+  color: #323842FF;
+}
+
+.align {
+  text-align: center;
+}
+
+.h2{
+  font-family: Archivo;
+  text-align: center;
+  font-size: 25px;
+  color:#2f4f4f;
+}
+
+.custom-card {
+  max-width: 600px;
+  margin: auto;
+  background-color: #66796B;
+}

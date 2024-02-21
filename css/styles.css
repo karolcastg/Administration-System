@@ -1,0 +1,83 @@
+body{
+    background-color: #EBE6D2;
+}
+
+.body{
+    background-color: #EBE6D2;
+}
+
+.h1{
+    font-family: Archivo;
+    font-style: italic;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 550;
+    color:darkslategrey;
+}
+
+.text {
+    font-family: Archivo;
+    font-style: italic;
+    font-size: 18px;
+    font-weight: 700;
+    color: #323842FF;
+}
+
+.align {
+    text-align: center;
+}
+
+.h2{
+    font-family: Archivo;
+    text-align: center;
+    font-size: 25px;
+    color:darkslategrey;
+}
+
+.banner-section {
+    width: 100%;
+    height: max-content;
+}
+
+.banner-section .banner {
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin: 40px auto auto auto;
+}
+
+.container {
+    align-content: center;
+    width: 400px;
+    height: 200px;
+    background: #FFFFFFFF;
+    border-radius: 22px;
+}
+
+#banner {
+    align-content: center;
+    width: 400px;
+    height: 200px;
+    display: flex;
+}
+
+.banner-name{
+    font-family: Archivo;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+    color:#323842FF;
+}
+
+.card{
+    width: 10rem; 
+    margin-right: 50px; 
+    margin-bottom: 20px;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+

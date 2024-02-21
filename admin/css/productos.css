@@ -1,0 +1,13 @@
+.container-h1 {
+    text-align: center;
+    
+  }
+
+.h1{
+    font-size: 30px;
+    color:darkslategrey;
+}
+
+body{
+  background-color: rgb(209, 207, 207);
+}
